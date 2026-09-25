@@ -2,8 +2,8 @@
 
 
 
-![Screw。PRIVATE/PIXELの導入ページへ進むアニメーション](assets/cover-screw.gif)
+![Screw animation leading to the PRIVATE/PIXEL installation page](assets/cover-screw.gif)
 
-**Screw**は、**PRIVATE/PIXEL**のGrapheneOS導入システムを見つけるための独立した案内リポジトリです。
+**Screw** is an independent guide repository for finding the **PRIVATE/PIXEL** GrapheneOS installation system.
 
-**[▶ GrapheneOS導入ページを開く](https://privatepixel.uk/grapheneos-install)** · **[📖 導入ガイドを見る](https://privatepixel.uk/guide)**
+**[▶ Open the GrapheneOS installation page](https://privatepixel.uk/grapheneos-install)** · **[📖 Read the installation guide](https://privatepixel.uk/guide)**
