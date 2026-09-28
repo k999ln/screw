@@ -1,0 +1,24 @@
+name: Historical Solana Smart Money Backtest
+
+on:
+  push:
+    branches:
+      - backtest-solana-smartmoney-20260927
+  workflow_dispatch:
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run public-sample historical paper backtest
+        run: python backtests/kol_sample_backtest.py
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-backtest-result
+          path: backtest_result.json
